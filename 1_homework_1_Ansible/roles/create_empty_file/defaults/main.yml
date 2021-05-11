@@ -1,4 +1,4 @@
 ---
 # defaults file for create_empty_file
-destination_file : /etc/iaac
-perm_mode:       : "0500"
+destination_file: /etc/iaac
+perm_mode: "0500"

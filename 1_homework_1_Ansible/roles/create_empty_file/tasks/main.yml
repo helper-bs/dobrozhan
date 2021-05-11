@@ -1,7 +1,7 @@
 ---
 # tasks file for create_empty_file
-- name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+- name: Touch a file and set the permissions
   ansible.builtin.file:
-    path: { { destination_file } }
+    path: "{{ destination_file }}"
     state: touch
-    mode: { { perm_mode } }
+    mode: "{{ perm_mode }}"

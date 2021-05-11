@@ -1,6 +1,7 @@
 ---
 # tasks file for fetch_linux_distro
-- name: Fetch a linux distro name/version
-  command: lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'
-  register: distribution
-- debug: msg="{{ distribution }}"
+- name: Distribution version
+  shell: lsb_release -d | cut -d ':' -f2 | awk '{$1=$1};1'
+  register: distr_version
+- debug:
+    msg: "Distribution version: {{ distr_version.stdout }}. Hostname: {{ ansible_host }}."
