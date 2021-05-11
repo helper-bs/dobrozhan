@@ -12,11 +12,11 @@
    `IP_2 = 34.67.2.54`\
    `IP_3 = 35.225.77.31`\
    Established password-less connection using ssh key-pair generated on main machine and public key injected into instance setting on GCP console.\
-   To fetch infromation about distro, I have used the following combination of commands:\
+   To fetch information about distro, I have used the following combination of commands:\
    `lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'`
 
   For optional task, please switch to **optional** branch. **Main** branch is the solution for core task.
-  Password has been ecnrypted by `ansible-vault encrypt_string` command. Password for vault = `password`.
+  Password has been encrypted by `ansible-vault encrypt_string` command. Password for vault = `password`.
 
 <!--
 **dobrozhan/dobrozhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
