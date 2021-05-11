@@ -4,4 +4,4 @@
   shell: lsb_release -d | cut -d ':' -f2 | awk '{$1=$1};1'
   register: distr_version
 - debug:
-    msg: "Distribution version: {{ distr_version.stdout }}. Hostname: {{ ansible_host }}."
+    msg: "Distribution version: {{ distr_version.stdout }}. Hostname: {{ ansible_hostname }}."
