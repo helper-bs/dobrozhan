@@ -1,4 +1,4 @@
-### Hi👋👋👋 Welcome to my notes for Telco DevOps Basecamp Spring leading by GlobalLogic!
+### Hi👋👋👋 Welcome to my notes for Telco DevOps Basecamp Spring GlobalLogic!
 
 - ⚡ Initial selection task:
 
