@@ -1,14 +1,14 @@
-### Hi👋. Welcome to my notes for activities in Telco DevOps Basecamp Spring leading by GlobalLogic
+### Hi👋👋👋 Welcome to my notes for Telco DevOps Basecamp Spring leading by GlobalLogic!
 
-- ⚡ Initial task info:
+- ⚡ Initial selection task:
 
-Docker Hub repository with image for this build - https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver
+Docker Hub repository containing image for the build - https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver
 
 
-- ⚡ Homework 1 "Ansible" info:
+- ⚡ Homework 1 - "Ansible":
  
-1 main machine with WSL2 on Windows 10 with `IP_0 = 93.170.67.131`\
-3 hosts deployed as instances on GCP (Linux 20.04 LTS) with following IPv4\
+1 main machine with WSL2 on Windows 10 with IPv4 `IP_0 = 93.170.67.131`\
+3 hosts deployed as instances on GCP (Linux 20.04 LTS) with IPv4\
 `IP_1 = 35.222.77.210`\
 `IP_2 = 34.67.2.54`\
 `IP_3 = 35.225.77.31`\
