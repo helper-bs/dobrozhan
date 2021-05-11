@@ -1,5 +1,6 @@
 [group_1]
 ubuntu1 ansible_host=35.222.77.210 
+
 [group_2]
 ubuntu2 ansible_host=34.67.2.54
 

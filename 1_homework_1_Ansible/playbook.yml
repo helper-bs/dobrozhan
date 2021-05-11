@@ -13,6 +13,4 @@
   roles:
     - fetch_linux_distro
   ansible.builtin.debug:
-    var: result
-  ansible.builtin.debug:
     msg: System has the following hostname {{ inventory_hostname }}

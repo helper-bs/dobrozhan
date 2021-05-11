@@ -1,0 +1,6 @@
+---
+# tasks file for fetch_linux_distro
+- name: Fetch a linux distro name/version
+  command: lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'
+  register: distribution
+- debug: msg="{{ distribution }}"
