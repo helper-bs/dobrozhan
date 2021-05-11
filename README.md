@@ -15,7 +15,7 @@ Established password-less connection using ssh key-pair generated on main machin
 To fetch infromation about distro, I have used the following combination of commands:\
 `lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'`
 
-For optional task, please switch to ###optional### branch. ###Main### branch is the solution for core task.
+For optional task, please switch to **optional** branch. **Main** branch is the solution for core task.
 
 <!--
 **dobrozhan/dobrozhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
