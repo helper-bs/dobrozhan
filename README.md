@@ -2,7 +2,7 @@
 
 - ⚡ Initial selection task:
 
-Docker Hub repository containing image for the [build](https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver).
+Docker Hub repository containing [build](https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver) image.
 
 
 - ⚡ Homework 1 - "Ansible":
