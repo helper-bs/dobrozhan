@@ -1,8 +1,8 @@
-### Hi👋👋👋 Welcome to my notes for activities in Telco DevOps Basecamp Spring leading by GlobalLogic
+### Hi👋👋👋 Welcome to my notes for activities in Telco DevOps Basecamp Spring leading by GlobalLogic!
 
 - ⚡ Initial task info:
 
-Docker Hub repository with image for this build - https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver
+Docker Hub repository containing image for the build - https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver
 
 
 - ⚡ Homework 1 "Ansible" info:
