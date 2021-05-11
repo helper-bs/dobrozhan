@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi👋. Welcome to my notes for activities in Telco DevOps Basecamp Spring leading by GlobalLogic
 
 - ⚡ Initial task info:
 
