@@ -2,19 +2,20 @@
 
 - ⚡ Initial selection task
 
-Docker Hub repository containing [build](https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver) image.
-
+  Docker Hub repository containing [build](https://hub.docker.com/repository/docker/dobrozhan/onelinewebserver) image.
 
 - ⚡ Homework 1 - "Ansible"
- 
-1 main machine with WSL2 on Windows 10 with IPv4 `IP_0 = 93.170.67.131`\
-3 hosts deployed as instances on GCP (Linux 20.04 LTS) with IPv4\
-`IP_1 = 35.222.77.210`\
-`IP_2 = 34.67.2.54`\
-`IP_3 = 35.225.77.31`\
-Established password-less connection using ssh key-pair generated on main machine and public key injected into instance setting on GCP console.\
-To fetch infromation about distro, I have used the following combination of commands:\
-`lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'`
+
+  1 main machine with WSL2 on Windows 10 with IPv4 `IP_0 = 93.170.67.131`\
+   3 hosts deployed as instances on GCP (Linux 20.04 LTS) with IPv4\
+   `IP_1 = 35.222.77.210`\
+   `IP_2 = 34.67.2.54`\
+   `IP_3 = 35.225.77.31`\
+   Established password-less connection using ssh key-pair generated on main machine and public key injected into instance setting on GCP console.\
+   To fetch infromation about distro, I have used the following combination of commands:\
+   `lsb_release -d | cut -d":" -f2 | awk '{$1=$1};1'`
+
+  For optional task, please switch to **optional** branch. **Main** branch is the solution for core task.
 
 <!--
 **dobrozhan/dobrozhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
