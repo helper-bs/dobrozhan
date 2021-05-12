@@ -10,8 +10,3 @@ ubuntu3 ansible_host=35.225.77.31
 [iaas:children]
 group_1
 group_2
-
-[ALL:children]
-group_1
-group_2
-group_3
