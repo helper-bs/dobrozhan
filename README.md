@@ -6,7 +6,8 @@
 
 - ⚡ Homework 1 - "Ansible"
 
-  1 main machine with WSL2 on Windows 10 with IPv4 `IP_0 = 93.170.67.131`\
+   1 main machine with WSL2 on Windows 10 with IPv4 \ 
+   `IP_0 = 93.170.67.131`\
    3 hosts deployed as instances on GCP (Linux 20.04 LTS) with IPv4\
    `IP_1 = 35.222.77.210`\
    `IP_2 = 34.67.2.54`\
