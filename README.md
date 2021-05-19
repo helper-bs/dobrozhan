@@ -20,7 +20,8 @@
    Please, not that instances are shutdown, request me to go this task live (dobrozhan.a@gmail.com).
 
 - ⚡ Homework 2 - "Security hardening"
-
+    
+    All testing results are enclosed on [Google Doc](https://docs.google.com/document/d/1j6QeDBlXAxQKk2I4ZHPzLU5qgVu6py67pnz97jmd870/edit?usp=sharing).
     Task 1. Prerequisites\
     Two hosts:\
     local WSL2 host - Ubuntu 20.04.2 LTS (`93.170.71.195`) 	          as Debian-based Linux distribution\
@@ -30,7 +31,7 @@
     
     Task 2. Prerequisites\
     Additional 3rd host (35.226.212.101) for testing purposes.
-    
+     
     ...
 
 <!--
