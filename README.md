@@ -26,8 +26,11 @@
     remote GCP host -  CentOS Linux 7 (Core) (`34.134.139.89`)        as RedHat-based Linux distribution\
     The connection has been established by using ssh authentication with private-public keys. Public key has been injected to GCP instance using Google console on remote host as     well as added to `~.ssh/authorized_keys` on local host. For the first part, I will use pam plugin which is part of the community.general collection.\
     The main module to configure - `pam_pwquality.so`. The required parameters for rejecting passwords containing username - `usercheck=1`. To enforce for root, we can apply -       `enforce_for_root`. The main configuration files for Debian (Ubuntu 20.04) - `/etc/pam.d/common-password`. For RedHat (Centos 7) - `/etc/pam.d/system-auth`. It should be         noted that pam_pwquality.so module has been already installed on the hosts by default. Configuration files were found by simple grep command. Also, as configuration files       are belonging to root, sudoers file has been modified on local machine to allow user modified files with no password.\
+    
     Task 2. Prerequisites\
     Additional 3rd host (35.226.212.101) for testing purposes.\
+    
+    ...
 
 <!--
 **dobrozhan/dobrozhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
