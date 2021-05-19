@@ -28,7 +28,7 @@
     The main module to configure - `pam_pwquality.so`. The required parameters for rejecting passwords containing username - `usercheck=1`. To enforce for root, we can apply -       `enforce_for_root`. The main configuration files for Debian (Ubuntu 20.04) - `/etc/pam.d/common-password`. For RedHat (Centos 7) - `/etc/pam.d/system-auth`. It should be         noted that pam_pwquality.so module has been already installed on the hosts by default. Configuration files were found by simple grep command. Also, as configuration files       are belonging to root, sudoers file has been modified on local machine to allow user modified files with no password.
     
     Task 2. Prerequisites\
-    Additional 3rd host (35.226.212.101) for testing purposes.\
+    Additional 3rd host (35.226.212.101) for testing purposes.
     
     ...
 
