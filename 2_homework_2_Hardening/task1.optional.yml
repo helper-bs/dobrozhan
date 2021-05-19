@@ -1,0 +1,27 @@
+---
+- name: Task 1. Optional. Do not use your username in password
+  hosts: all
+  gather_facts: yes
+  become: yes
+  become_method: sudo
+
+  tasks:
+    - name: Update pam password rules for RedHat
+      ansible.builtin.lineinfile:
+        path: /etc/pam.d/system-auth
+        regexp: "pam_pwquality.so"
+        line: "password   requisite   pam_pwquality.so enforce_for_root usercheck=1"
+        owner: root
+        group: root
+        mode: "0644"
+      when: ansible_facts['os_family'] == "RedHat"
+
+    - name: Update pam password rules for Debian
+      ansible.builtin.lineinfile:
+        path: /etc/pam.d/common-password
+        regexp: "pam_pwquality.so"
+        line: "password   requisite   pam_pwquality.so enforce_for_root usercheck=1"
+        owner: root
+        group: root
+        mode: "0644"
+      when: ansible_facts['os_family'] == "Debian"

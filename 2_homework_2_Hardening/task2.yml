@@ -1,0 +1,26 @@
+---
+- name: Task 2. Configure TCP Wrappers
+  hosts: target
+  gather_facts: yes
+  become: yes
+  become_method: sudo
+  vars:
+    master_node: "93.170.71.195"
+    remote_node: "34.134.139.89"
+
+  tasks:
+    - name: Deny all connections to ssh service
+      lineinfile:
+        path: /etc/hosts.deny
+        line: "sshd : ALL"
+        owner: root
+        group: root
+        mode: "0644"
+
+    - name: Allow remote host and local host connections to ssh service
+      ansible.builtin.lineinfile:
+        path: /etc/hosts.allow
+        line: "sshd : {{ master_node }}, {{ remote_node }}"
+        owner: root
+        group: root
+        mode: "0644"
